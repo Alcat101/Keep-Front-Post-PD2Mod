@@ -1,0 +1,6 @@
+"persist_scripts": [
+		{
+			"global": "lib/lua/ARFrontPost/ar_front_post.lua",
+			"script_path": "ar_front_post.lua"
+		}
+	]

@@ -1,0 +1,22 @@
+{
+	"name": "Keep Front Post",
+	"description": "Lets you keep the front post of AR-15 rifle type and other weapon (M733, K23B) when you install any optic sight. This mod is the BLT version from the old LUA hook type mod.",
+	"author": "Originally from Dead Man Chest Weapon Overhaul, standalone old lua hook mod from Dindu Noep-ffin",
+	"contact": "Standalone author: http://steamcommunity.com/id/qt_314",
+	"version": "1.0",
+	"priority": 0,
+	"persist_scripts": [
+		{
+			"global": "AMCARbarrel",
+			"script_path": "amcar_change_barrel.lua"
+		}
+	],
+	"hooks": [
+		{
+			"hook_id": "lib/tweak_data/tweakdata",
+			"script_path": "ar_front_post.lua"
+		}
+	],
+	
+}
+
